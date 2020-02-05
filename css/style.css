@@ -37,6 +37,9 @@ td #row1 {
 h2 {
     margin: 50px;
     font-style: italic;
+    background-color: ivory;
+    border: rgb(54, 53, 53) solid 2px;
+
 }
 
 button {
