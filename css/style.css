@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(161, 155, 155);
+    background-color: rgb(87, 85, 85);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +38,7 @@ h2 {
     margin: 50px;
     font-size: medium;
     font-style: italic;
+    text-align: center;
     background-color: rgb(208, 216, 224);
     border: rgb(54, 53, 53) solid 2px;
 
