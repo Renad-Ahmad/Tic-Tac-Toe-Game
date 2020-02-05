@@ -37,15 +37,15 @@ td #row1 {
 h2 {
     margin: 50px;
     font-style: italic;
-    background-color:rgb(208, 216, 224);
+    background-color: rgb(208, 216, 224);
     border: rgb(54, 53, 53) solid 2px;
 
 }
 
 button {
-    border: rgb(54, 53, 53) solid 2px;
     font-style: italic;
     margin: 50px;
-    background-color:rgb(208, 216, 224);
+    background-color: rgb(208, 216, 224);
+    border: rgb(54, 53, 53) solid 2px;
 
 }

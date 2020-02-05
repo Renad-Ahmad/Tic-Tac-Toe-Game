@@ -48,12 +48,12 @@ const play = function (cellId) {
     if (gameArray[i][j].status == "blank" && !isGameOver) {
         if (player1Turn) {
             gameArray[i][j].status = "x"
-            document.getElementById(cellId).src = 'img/X.png';
+            document.getElementById(cellId).src = 'img/x.png';
             player1Turn = !player1Turn;
             $("h2").text("o turn");
         } else {
             gameArray[i][j].status = "o"
-            document.getElementById(cellId).src = 'img/O.png';
+            document.getElementById(cellId).src = 'img/o.png';
             player1Turn = !player1Turn;
             $("h2").text("x turn");
         }
