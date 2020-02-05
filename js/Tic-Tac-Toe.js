@@ -44,6 +44,7 @@ const play = function (cellId) {
     let i = cellId.substring(2, 3);
     let j = cellId.substring(3, 4);
 
+    // switch turns between x and o
     if (gameArray[i][j].status == "blank" && !isGameOver) {
         if (player1Turn) {
             gameArray[i][j].status = "x"
@@ -120,6 +121,7 @@ const updateGameStatus = function () {
         score = "tie";
     }
 
+    //a message after each win or tie
     if (isGameOver) {
         setTimeout(function () {
             alert(score);
