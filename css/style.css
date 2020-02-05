@@ -34,6 +34,14 @@ td #row1 {
     flex-wrap: wrap;
 }
 
+h2 {
+    margin: 50px;
+    font-style: italic;
+}
+
 button {
     border: rgb(54, 53, 53) solid 2px;
+    font-style: italic;
+    margin: 50px;
+
 }

@@ -43,22 +43,24 @@ const play = function (cellId) {
     // extract i j
     let i = cellId.substring(2, 3);
     let j = cellId.substring(3, 4);
-    
+
     if (gameArray[i][j].status == "blank" && !isGameOver) {
         if (player1Turn) {
             gameArray[i][j].status = "x"
             document.getElementById(cellId).src = 'img/X.png';
             player1Turn = !player1Turn;
+            $("h2").text("o turn");
         } else {
             gameArray[i][j].status = "o"
             document.getElementById(cellId).src = 'img/O.png';
             player1Turn = !player1Turn;
+            $("h2").text("x turn");
         }
         counter++;
         updateGameStatus()
     }
 
- 
+
 
 }
 
@@ -72,7 +74,7 @@ const updateGameStatus = function () {
         if (gameArray[i][0].status != "blank" &&
             gameArray[i][0].status == gameArray[i][1].status &&
             gameArray[i][0].status == gameArray[i][2].status) {
-            
+
             isGameOver = true;
             score = gameArray[i][0].status + " wins"
             break;
@@ -86,7 +88,7 @@ const updateGameStatus = function () {
         if (gameArray[0][j].status != "blank" &&
             gameArray[0][j].status == gameArray[1][j].status &&
             gameArray[0][j].status == gameArray[2][j].status) {
-            
+
             isGameOver = true;
             score = gameArray[0][j].status + " wins"
             break;
@@ -118,11 +120,9 @@ const updateGameStatus = function () {
         score = "tie";
     }
 
-    if(isGameOver){
-        setTimeout(function() {
+    if (isGameOver) {
+        setTimeout(function () {
             alert(score);
-        },10)
+        }, 10)
     }
 }
-
-
