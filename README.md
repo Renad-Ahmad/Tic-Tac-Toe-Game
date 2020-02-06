@@ -26,7 +26,7 @@ web browser includes Developer Tools, a feature that helps web developers debug 
 *  As a user, I want to be able to click on a square to add X first and then O.
 *  As a user, I want to be shown an alert after each turn for win or tie.
 *  As a user, I want to be shown a message  for who's turn it is next.
-*  As a user, I want to be able to click the same square twice.
+*  As a user, I Should not be able to click the same square twice.
 *  As a user, I want to  be not able to continue playing once win or tie.
 *  As a user, I want to be  to play the game again without refreshing the page.
 
