@@ -37,7 +37,7 @@ web browser includes Developer Tools, a feature that helps web developers debug 
 * In the third phase, with HTML, JavaScript and jQuery created the page and the table for the Tic Tac Toe game.
 * In the fourth phase, style the page with CSS.
 * In the fifth phase, created a play function to switch turns between x and o.
-* In the sixth phase,  created a updateGameStatus function to check for win or tie and who's turn it is next. 
+* In the sixth phase,  created a updateGameStatus function to check for win or tie. 
 
 #### List of unsolved problems
 ---
@@ -115,7 +115,7 @@ const play = function (cellId) {
 }
  
  1. first it extract i and j.
- 2. check if the status of the square is not blank and the game is not over (I set isGameOver = false, so if it is not false then do this condition).
+ 2. check if the status of the square is not blank and the game is not over (I set isGameOver = false, so if it is not true,  then do this condition).
  3. Then switch turns between x and o.
  4. Keep count for each turn.
  5. call updateGameStatus().
