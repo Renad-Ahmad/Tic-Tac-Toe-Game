@@ -50,11 +50,14 @@ const play = function (cellId) {
             gameArray[i][j].status = "x"
             document.getElementById(cellId).src = "img/x.png";
             player1Turn = !player1Turn;
+            // show who's turn it is next
             $("h2").text("o turn");
+
         } else {
             gameArray[i][j].status = "o"
             document.getElementById(cellId).src = "img/o.png";
             player1Turn = !player1Turn;
+            // show who's turn it is next
             $("h2").text("x turn");
         }
         counter++;
@@ -68,9 +71,9 @@ const play = function (cellId) {
 
 
 const updateGameStatus = function () {
+
     //check for row sequence
     //var isGameOver = false;
-
     for (let i = 0; i < gameArray.length; i++) {
         if (gameArray[i][0].status != "blank" &&
             gameArray[i][0].status == gameArray[i][1].status &&
