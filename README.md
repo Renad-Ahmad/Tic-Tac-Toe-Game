@@ -115,7 +115,7 @@ const play = function (cellId) {
 }
  
  1. first it extract i and j.
- 2. check if the status of the square is not blank and the game is not over (I set isGameOver = false, so if it is not true, then do this condition).
+ 2. check if the status of the square is not blank and the game is not over (I set isGameOver = false, so if it is not false, then do this condition).
  3. Then switch turns between x and o.
  4. Keep count for each turn.
  5. call updateGameStatus().
