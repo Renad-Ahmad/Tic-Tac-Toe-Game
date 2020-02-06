@@ -64,7 +64,7 @@ for (let i = 0; i < gameArray.length; i++) {
 
 1. It will check if the status of the first square is not blank.
 2. Then check if what inside of the first square is the same as the second square.
-3. then check if what inside the first square is the same as the theird square.
+3. Then check if what inside the first square is the same as the theird square.
 4. If all the three has the same status then it is a win.
 
 - Same go for the column sequence.
@@ -115,7 +115,7 @@ const play = function (cellId) {
 }
  
  1. first it extract i and j.
- 2. check if the status of the square is not blank and the game is not over (I set isGameOver = false, so if it is not false, then do this condition).
+ 2. check if the status of the square is a blank and the game is not over (I set isGameOver = false, so if it is not false, then do this condition).
  3. Then switch turns between x and o.
  4. Keep count for each turn.
  5. call updateGameStatus().
