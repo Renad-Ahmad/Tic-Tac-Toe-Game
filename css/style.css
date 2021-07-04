@@ -38,20 +38,17 @@ h2 {
     margin: 50px;
     text-align: center;
     background-color: pink;
-    border: white solid 2px;
+    border: white solid 3px;
     border-radius: 6%;
-    padding:6px;
-
+    padding:10px 40px;
 }
 
 button {
-    font-style: italic;
     font-size: large;
     margin: 50px;
     background-color: pink;
-    border: white solid 2px;
+    border: white solid 3px;
     border-radius: 6%;
-
-
+    padding:10px;
 }
 

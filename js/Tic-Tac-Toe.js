@@ -23,7 +23,7 @@ const initializeGame = function () {
             }
         }
     }
-    $("h2").text("turns");
+    $("h2").text("Turns");
     
     //creating the table
     $("#gameBoard").html("")
@@ -53,14 +53,14 @@ const play = function (cellId) {
             document.getElementById(cellId).src = "img/x.png";
             player1Turn = !player1Turn;
             // show who's turn it is next
-            $("h2").text("o turn");
+            $("h2").text("O turn");
 
         } else {
             gameArray[i][j].status = "o"
             document.getElementById(cellId).src = "img/o.png";
             player1Turn = !player1Turn;
             // show who's turn it is next
-            $("h2").text("x turn");
+            $("h2").text("X turn");
         }
         counter++;
         updateGameStatus()
