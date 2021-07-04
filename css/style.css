@@ -7,7 +7,7 @@ body {
     background-image: url("https://i.pinimg.com/564x/69/41/4a/69414a17fd63ba2ce8ff780d2d33be66.jpg");
     background-repeat: no-repeat;
     background-position: left bottom left ;
-
+    font-style: italic;
     }
 
 .table {
@@ -34,18 +34,16 @@ td #row1 {
 }
 
 h2 {
-    margin: 50px;
     font-size: medium;
-    font-style: italic;
+    margin: 50px;
     text-align: center;
     background-color: pink;
-    border: black solid 1px;
+    border: black solid 2px;
     padding:6px;
 
 }
 
 button {
-    font-style: italic;
     font-size: large;
     margin: 50px;
     background-color: pink;
