@@ -3,7 +3,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 5%;
+    background-color: rgb(250, 244, 247);
     background-image: url("https://i.pinimg.com/564x/69/41/4a/69414a17fd63ba2ce8ff780d2d33be66.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom left ;
+
     }
 
 .table {
@@ -35,8 +39,8 @@ h2 {
     font-style: italic;
     text-align: center;
     background-color: pink;
-    border: black thin 6px;
-    padding:4px;
+    border: black solid 1px;
+    padding:6px;
 
 }
 
@@ -45,6 +49,6 @@ button {
     font-size: large;
     margin: 50px;
     background-color: pink;
-    border: black thin 6px;
+    border: black thin 1px;
 
 }

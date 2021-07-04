@@ -23,6 +23,8 @@ const initializeGame = function () {
             }
         }
     }
+    $("h2").text("turns");
+    
     //creating the table
     $("#gameBoard").html("")
     for (let i = 0; i < gameArray.length; i++) {
