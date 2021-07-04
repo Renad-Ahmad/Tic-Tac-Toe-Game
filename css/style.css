@@ -7,22 +7,21 @@ body {
     background-image: url("https://i.pinimg.com/564x/69/41/4a/69414a17fd63ba2ce8ff780d2d33be66.jpg");
     background-repeat: no-repeat;
     background-position: left bottom left ;
-    font-style: italic;
     }
 
-.table {
+/* .table {
     table-layout: fixed;
     background-color: rgb(255, 182, 193);
     padding: 50%;
     border: rgb(9, 93, 93) solid 4px;
-
-}
+} */
 
 .Square {
     background-color: pink;
-    width: 100PX;
-    height: 100PX;
-    border: black thin 6px;
+    width: 110PX;
+    height: 110PX;
+    border: white solid 6px;
+    margin: 3px;
 }
 
 td #row1 {
@@ -34,19 +33,25 @@ td #row1 {
 }
 
 h2 {
+    font-style: italic;
     font-size: medium;
     margin: 50px;
     text-align: center;
     background-color: pink;
-    border: black solid 2px;
+    border: white solid 2px;
+    border-radius: 6%;
     padding:6px;
 
 }
 
 button {
+    font-style: italic;
     font-size: large;
     margin: 50px;
     background-color: pink;
-    border: black thin 1px;
+    border: white solid 2px;
+    border-radius: 6%;
+
 
 }
+
