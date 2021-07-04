@@ -9,13 +9,6 @@ body {
     background-position: left bottom left ;
     }
 
-/* .table {
-    table-layout: fixed;
-    background-color: rgb(255, 182, 193);
-    padding: 50%;
-    border: rgb(9, 93, 93) solid 4px;
-} */
-
 .Square {
     background-color: pink;
     width: 110PX;
